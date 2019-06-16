@@ -18,6 +18,7 @@ public class Bookshelf implements MyAggregate {
         last++;
     }
     public Book getBook(int index){
+
         return books[index];
 
     }
